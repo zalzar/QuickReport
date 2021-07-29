@@ -1,0 +1,27 @@
+/(?<result>[^\/]+)/
+/(?<result>[^\/]+)/
+
+
+=""""&(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(A1,"https:/www.",""),"https://",""),"http://",""))&""""&" OR "
+
+=""""&(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(A1,"http://www.",""),"https://www.",""),"https://",""),"http://",""))&""""&" OR "
+
+=(LEFT((SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(A1,"http://www.",""),"https://www.",""),"https://",""),"http://","")),FIND("/",(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(A1,"http://www.",""),"https://www.",""),"https://",""),"http://","")))-1))
+
+=""""&(LEFT((SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(A1,"http://www.",""),"https://www.",""),"https://",""),"http://","")),FIND("/",(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(SUBSTITUTE(A1,"http://www.",""),"https://www.",""),"https://",""),"http://","")))-1))&""""&" OR "
+
+//div[@itemProp="datePublishe~d"]/@content
+//meta[@itemprop="datePublished"]/@content
+//div[@class='meta__timestamp']/time/@datetime
+//meta[@property="article:published_time"]/@content
+
+
+
+(content_title:("") AND source:"welt.de")
+
+content_title:"" AND source:"cnbcarabia.com"
+https://www.deutschlandfunknova.de/beitrag/saudi-arabien-sprayer-als-deutscher-kultur-vertreter
+https://www.jewishpress.com/news/israel/biden-drops-2nd-shoe-on-israel-will-rejoin-un-human-rights-council/2021/02/08/
+
+
+

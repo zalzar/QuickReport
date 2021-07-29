@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Correction</title>
+    <script src="./jquery-3.5.1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+
+</head>
+
+<body class="body">
+    <div>
+        <h2 class="title" id="source_url">Report issue</h2>
+        <div class="form-element">
+            <h4>Source: </h4>
+            <h4 class="url" id="HostName">the url can't be found</h4>
+        </div>
+
+        <div class="form-element">
+            <label>URL: </label>
+            <h4 class="url" id="post_Url">the url can't be found</h4>
+        </div>
+
+
+
+        <div class="form-element">
+            <label>Issue type: </label>
+            <br>
+            <select id="issues">
+                <option>-------Issue type-------</option>
+                <option>Duplicate</option>
+                <option>Fix Source Title</option>
+                <option>Fix Post Title</option>
+                <option>Fix Author</option>
+                <option>Fix Date&Time</option>
+                <option>Missing Source</option>
+                <option>Missing Post</option>
+                <option>Fix Content Text</option>
+                <option>Fix Source URL</option>
+                <option>Fix Language</option>
+                <option>Fix Label</option>
+                <option>Fix Location</option>
+                <option>Fix Brand Name</option>
+                <option>Fix Rank</option>
+                <option>Redirect|Aggregator</option>
+                <option>Fix Potential Reach</option>
+                <option>Twitter Harvesting</option>
+                <option>Forum | Blog</option>
+                <option>Others</option>
+
+            </select>
+        </div>
+
+        <div class="form-element">
+            <label>Issue Description </label>
+            <br>
+            <textarea class="overflow" id="myComment" rows="4" cols="26"></textarea>
+        </div>
+
+        <button id="btn">Report</button>
+    </div>
+
+
+
+    <!-- api key : AIzaSyDXRJMRv86xdSvsSLRflm6XQ8oJsWrlvKs -->
+    <!-- client id: 792452371836-qofa6a71bfaboef28qsjcu18qripcme6.apps.googleusercontent.com -->
+    <!-- sheet id : 1BL5q_7AznTrj9oqkKRZH65m63xHMWzf3P42EsyHe248 -->
+
+
+
+
+    <script src="popup.js"></script>
+</body>
+
+</html>
