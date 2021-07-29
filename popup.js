@@ -2,19 +2,19 @@
 
 
 //============================================================Functions============================================================
-$(function(){
-    $('#name').keyup(function(){
-        $('#source_url').text('Hello '+$('#name').val());
-    })
-})
+// $(function(){
+//     $('#name').keyup(function(){
+//         $('#source_url').text('Hello '+$('#name').val());
+//     })
+// })
 
 $(document).ready(function(){
     chrome.tabs.getSelected(null,function(tab){
         var link = document.createElement('a');
         link.href=tab.url;
-        $('#HostName').html(""+link.hostname);
+        $('#Full_URL').html(""+link.hostname);
         theURL=link;
-        $('#post_Url').html(""+link);
+        $('#post_Url_Source').html(""+link);
         
     })
 });
