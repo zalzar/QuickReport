@@ -8,14 +8,12 @@
         "16":"./image/16.png",
         "48":"./image/48.png",
         "128":"./image/128.png"
-
     },
     "browser_action":{
         "default_icon": "./image/48.png",
         "default_popup": "./QuickReport.html"
     }
 
-   
     
     
 }
