@@ -8,9 +8,15 @@
 //     })
 // })
 
-$("#getddl").click(function(e) {
+// $("#getddl").click(function(e) {
+//     document.getElementById('lblmess').innerHTML= 
+//     (formid.ddlselect[formid.ddlselect.selectedIndex].text);
+//     e.preventDefault();
+// });
+
+$("#ddlIssueType").click(function(e) {
     document.getElementById('lblmess').innerHTML= 
-    (formid.ddlselect[formid.ddlselect.selectedIndex].text);
+    (formid.ddlIssues[formid.ddlIssues.value].text);
     e.preventDefault();
 });
 // function getddl()
