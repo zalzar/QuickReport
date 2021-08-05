@@ -8,22 +8,17 @@
 //     })
 // })
 
-// $("#getddl").click(function(e) {
-//     document.getElementById('lblmess').innerHTML= 
-//     (formid.ddlselect[formid.ddlselect.selectedIndex].text);
-//     e.preventDefault();
-// });
-
-$("#ddlIssueType").click(function(e) {
+$("#getddl").click(function(e) {
     document.getElementById('lblmess').innerHTML= 
-    (formid.ddlIssues[formid.ddlIssues.value].text);
+    (formid.ddlselect[formid.ddlselect.selectedIndex].text);
     e.preventDefault();
 });
-// function getddl()
-// {
-//     document.getElementById('lblmess').innerHTML= 
-//     ("Issue type: "+formid.ddlselect[formid.ddlselect.selectedIndex].text);
-// };
+
+$("#ddlEmployees").click(function(e) {
+    document.getElementById('lblReporter').innerHTML= 
+    (userForm.ddlEmployeeName[userForm.ddlEmployeeName.selectedIndex].text);
+    e.preventDefault();
+});
 
 
 $(document).ready(function(){

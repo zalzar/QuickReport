@@ -16,14 +16,15 @@ body{
     height: 600px;
 }
 
-  .form-element{
+.form-element{
     margin:5px;
+    display: inline;
+    
 }
 .overflow{
     width: 100%;
     height: 150px;
     font-family: Arial, sans-serif;
 }
-
 
 
